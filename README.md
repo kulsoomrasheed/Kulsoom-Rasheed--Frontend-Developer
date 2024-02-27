@@ -3,10 +3,10 @@ Frontend Link: https://matrixlabsassignment.netlify.app/
 # Introduction
 Welcome to Bituniverse, where we bring together the world of cryptocurrencies and weather forecasts in one seamless web application. Explore the fascinating world of digital assets while staying updated with real-time weather information, all presented in a visually captivating manner.
 ## Features
-## Cryptocurrency Insights
+## Cryptocurrency Insights 💰
 Discover the latest insights into the cryptocurrency market with our Our Token section. Explore a curated list of tokens, including their market cap, symbol, and chain information. Stay informed about the ever-evolving world of digital currencies effortlessly.
 
-## Wallet Connectivity
+## Wallet Connectivityv 🔗
 Connect your digital wallet seamlessly with Bituniverse using our intuitive Wallet Connect feature. Whether you're a seasoned crypto investor or just getting started, managing your digital assets has never been easier.
 
 ## Technologies Used
@@ -37,8 +37,7 @@ We welcome contributions from developers of all skill levels. Whether it's fixin
 # Connect with Us
 
 Acknowledgments
-I would like to express our gratitude to the open-source community for their invaluable contributions. Special thanks to all the Matrix labs for giving us the assignment. I appreciate your valuable feedback.
-
+We extend our gratitude to the open-source community for their invaluable contributions. Special thanks to all the Matrix Labs team for providing us with this opportunity. We greatly appreciate your valuable feedback. 🙏
 
 
 
