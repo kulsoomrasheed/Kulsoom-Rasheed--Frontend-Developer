@@ -1,6 +1,7 @@
 import React from "react";
 import {
   Box,
+  Button,
   Center,
   Divider,
   Grid,
@@ -20,7 +21,8 @@ const SingleToken = ({ img, name, desc }) => {
             bgColor={"black"}
             color={"white"}
             border={"3px solid rgb(110,95,26)"}
-            maxW="sm"
+           width={"120%"}
+           margin={'auto'}
             justifyContent={"center"}
             alignContent={"center"}
             alignItems={"center"}
@@ -38,14 +40,24 @@ const SingleToken = ({ img, name, desc }) => {
                 alt="Green double couch with wooden legs"
                 borderRadius="lg"
                 mx="auto"
-                width={210}   _hover={{
+                width={150}   _hover={{
                   transform: "scale(1.3)", 
                 }}
               />
-              <Divider color={"yellow"} />
               <Stack mt="6" spacing="3">
-                <Heading size="md">{name}</Heading>
-                <Text color={'rgb(188,187,182)'}>{desc}</Text>
+                <Heading size="md">Bitcoin</Heading>
+                <Text color={'rgb(188,187,182)'}>Symbol: BTC</Text>
+                <Text color={'rgb(188,187,182)'}>Market Cao: $100000</Text>
+
+                <Text color={'rgb(188,187,182)'}>Chain: Bitcoin</Text>
+                <Button
+            bgGradient="linear(to-r,rgb(254,198,0),rgb(254,178,0))"
+            borderRadius={25}
+            borderColor="white"
+            variant="outline"
+            my={5}
+          >
+Get Details          </Button>
               </Stack>
             </CardBody>
             <CardFooter></CardFooter>

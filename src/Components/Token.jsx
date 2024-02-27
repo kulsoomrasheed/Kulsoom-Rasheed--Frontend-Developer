@@ -5,27 +5,27 @@ import SingleToken from "./SingleToken";
 
 const data = [
   {
-    img: "1.png",
+    img: "b4.png",
     name: "Bita Marketplace",
     desc: "Pellentesque habitant morbi tristique senectus et netus et malesuada Pellentesque habitant morbi tristique senectus et netus et malesuada ",
   },
   {
-    img: "2.png",
+    img: "b4.png",
     name: "Bita Marketplace",
     desc: "Pellentesque habitant morbi tristique senectus et netus et malesuada Pellentesque habitant morbi tristique senectus et netus et malesuada ",
   },
   {
-    img: "5.png",
+    img: "b4.png",
     name: "Bita Marketplace",
     desc: "Pellentesque habitant morbi tristique senectus et netus et malesuada Pellentesque habitant morbi tristique senectus et netus et malesuada ",
   },
   {
-    img: "4.png",
+    img: "b4.png",
     name: "Bita Marketplace",
     desc: "Pellentesque habitant morbi tristique senectus et netus et malesuada Pellentesque habitant morbi tristique senectus et netus et malesuada ",
   },
   {
-    img: "6.png",
+    img: "b4.png",
     name: "Bita Marketplace",
     desc: "Pellentesque habitant morbi tristique senectus et netus et malesuada Pellentesque habitant morbi tristique senectus et netus et malesuada ",
   },
