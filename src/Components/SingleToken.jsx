@@ -12,7 +12,7 @@ import {
 } from "@chakra-ui/react";
 import { Card, CardHeader, CardBody, CardFooter } from "@chakra-ui/react";
 
-const SingleToken = ({ img, name, desc }) => {
+const SingleToken = ({ img, name, symbol,chain,marketcap ,decimals }) => {
   return (
     <Center>
       <Box>
@@ -45,11 +45,14 @@ const SingleToken = ({ img, name, desc }) => {
                 }}
               />
               <Stack mt="6" spacing="3">
-                <Heading size="md">Bitcoin</Heading>
-                <Text color={'rgb(188,187,182)'}>Symbol: BTC</Text>
-                <Text color={'rgb(188,187,182)'}>Market Cao: $100000</Text>
+                <Heading size="md">
+                  {name}
+                </Heading>
+                <Text color={'rgb(188,187,182)'}>Symbol: {symbol}</Text>
+                <Text color={'rgb(188,187,182)'}>Market Cap: {marketcap}</Text>
+                <Text color={'rgb(188,187,182)'}> Decimals {decimals}</Text>
 
-                <Text color={'rgb(188,187,182)'}>Chain: Bitcoin</Text>
+                <Text color={'rgb(188,187,182)'}>Chain: {chain}</Text>
                 <Button
             bgGradient="linear(to-r,rgb(254,198,0),rgb(254,178,0))"
             borderRadius={25}

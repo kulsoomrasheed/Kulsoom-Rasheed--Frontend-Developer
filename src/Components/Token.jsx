@@ -1,8 +1,7 @@
 import { Box, Grid, GridItem, Heading, Stack, Text } from "@chakra-ui/react";
-import React from "react";
-import SinglePro from "./SinglePro";
+import React, { useEffect, useState } from "react";
 import SingleToken from "./SingleToken";
-
+import axios from 'axios'
 const data = [
   {
     img: "b4.png",
@@ -31,7 +30,22 @@ const data = [
   },
 ];
 
+
+
 const Token = () => {
+  const [tokenData,setTokenData]= useState([])
+const fetchTokenData=async()=>{
+await axios.get("https://btc-be-1.onrender.com/btc").then((res)=>{
+  console.log(res.data.btc);
+  setTokenData(res.data.btc)
+}).catch((err)=>{
+  console.log(err.message);
+})
+}
+
+useEffect(()=>{
+  fetchTokenData()
+},[])
   return (
     <div>
       <Box width={'80%'} color={"white"} m={'auto'} my={20}>
@@ -49,10 +63,10 @@ const Token = () => {
           alignContent={"center"}
           alignItems={"center"}
         >
-          {data &&
-            data.map((el, i) => {
+          {tokenData &&
+            tokenData.map((el, i) => {
               return (
-                <SingleToken key={i} img={el.img} name={el.name} desc={el.desc} />
+                <SingleToken key={i} img={el.img} name={el.tokenName} chain={el.chain} symbol={el.symbol} decimals={el.decimals} marketcap={el.marketcap}/>
               );
             })}
         </Grid>
