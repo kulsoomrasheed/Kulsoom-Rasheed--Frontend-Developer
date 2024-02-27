@@ -2,20 +2,20 @@
 Frontend Link: https://matrixlabsassignment.netlify.app/
 # Introduction
 Welcome to Bituniverse, where we bring together the world of cryptocurrencies and weather forecasts in one seamless web application. Explore the fascinating world of digital assets while staying updated with real-time weather information, all presented in a visually captivating manner.
-# Features
-# Cryptocurrency Insights
+## Features
+## Cryptocurrency Insights
 Discover the latest insights into the cryptocurrency market with our Our Token section. Explore a curated list of tokens, including their market cap, symbol, and chain information. Stay informed about the ever-evolving world of digital currencies effortlessly.
 
-# Wallet Connectivity
+## Wallet Connectivity
 Connect your digital wallet seamlessly with Bituniverse using our intuitive Wallet Connect feature. Whether you're a seasoned crypto investor or just getting started, managing your digital assets has never been easier.
 
-# Technologies Used
-# Frontend:
+## Technologies Used
+## Frontend:
 
 React: A powerful JavaScript library for building user interfaces.
 Chakra UI: A utility-first CSS framework for creating responsive and custom designs.
 
-#Backend:
+## Backend:
 Backend Link:https://github.com/kulsoomrasheed/btc-be
 Node.js: A JavaScript runtime environment for building scalable and efficient server-side applications.
 Express: A minimalist web application framework for Node.js, providing a robust set of features for building APIs and web applications.
