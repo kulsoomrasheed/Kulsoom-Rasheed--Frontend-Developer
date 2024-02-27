@@ -3,6 +3,9 @@ import Products from "../Components/Products";
 import Hero from "../Components/Hero";
 import Nav from "../Components/Nav";
 import { Box } from "@chakra-ui/react";
+import Token from "../Components/Token";
+import Footer from "../Components/Footer";
+import SwiperCarousal from "../Components/Carousel";
 
 const LandingPage = () => {
   return (
@@ -10,6 +13,9 @@ const LandingPage = () => {
       <Nav />
       1<Hero />
       <Products />
+      <SwiperCarousal/>
+      <Token/>
+      <Footer/>
     </Box>
   );
 };

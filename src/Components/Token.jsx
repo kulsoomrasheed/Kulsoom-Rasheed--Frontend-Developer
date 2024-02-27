@@ -1,6 +1,7 @@
 import { Box, Grid, GridItem, Heading, Stack, Text } from "@chakra-ui/react";
 import React from "react";
 import SinglePro from "./SinglePro";
+import SingleToken from "./SingleToken";
 
 const data = [
   {
@@ -30,11 +31,11 @@ const data = [
   },
 ];
 
-const Products = () => {
+const Token = () => {
   return (
     <div>
       <Box width={'80%'} color={"white"} m={'auto'} my={20}>
-        <Heading>Our  <span style={{ color: "rgb(254,204,0)" }}>Products</span></Heading>
+        <Heading>Our <span style={{ color: "rgb(254,204,0)" }}>Tokens</span></Heading>
         <Text>
           Pellentesque habitant morbi tristique senectus et netus et
           Pellentesque habitant morbi.
@@ -51,7 +52,7 @@ const Products = () => {
           {data &&
             data.map((el, i) => {
               return (
-                <SinglePro key={i} img={el.img} name={el.name} desc={el.desc} />
+                <SingleToken key={i} img={el.img} name={el.name} desc={el.desc} />
               );
             })}
         </Grid>
@@ -60,4 +61,4 @@ const Products = () => {
   );
 };
 
-export default Products;
+export default Token;

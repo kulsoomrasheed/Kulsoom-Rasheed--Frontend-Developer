@@ -9,14 +9,14 @@ import {
   Stack,
   Text,
 } from "@chakra-ui/react";
-import { Card, CardBody } from "@chakra-ui/react";
+import { Card, CardHeader, CardBody, CardFooter } from "@chakra-ui/react";
 
-const SinglePro = ({ img, name, desc }) => {
+const SingleToken = ({ img, name, desc }) => {
   return (
     <Center>
       <Box>
         <Grid m={"auto"}>
-          <Card
+        <Card
             bgColor={"black"}
             color={"white"}
             border={"3px solid rgb(110,95,26)"}
@@ -38,7 +38,7 @@ const SinglePro = ({ img, name, desc }) => {
                 alt="Green double couch with wooden legs"
                 borderRadius="lg"
                 mx="auto"
-                width={210}  _hover={{
+                width={210}   _hover={{
                   transform: "scale(1.3)", 
                 }}
               />
@@ -48,6 +48,7 @@ const SinglePro = ({ img, name, desc }) => {
                 <Text color={'rgb(188,187,182)'}>{desc}</Text>
               </Stack>
             </CardBody>
+            <CardFooter></CardFooter>
           </Card>
         </Grid>
       </Box>
@@ -55,4 +56,4 @@ const SinglePro = ({ img, name, desc }) => {
   );
 };
 
-export default SinglePro;
+export default SingleToken;

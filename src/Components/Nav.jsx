@@ -4,21 +4,21 @@ import React from "react";
 const Nav = () => {
   return (
     <Flex
-      bgColor={"rgb(52,47,14)"}
-      fontSize={"md"}
-      width={"95%"}
-      m={"auto"}
-      height={"Hug (88px)"}
-      paddingLeft={5}
-      paddingRight={5}
-      top={" 40px"}
-      left={" 40px"}
-      padding={"16px, 32px, 16px, 32px"}
-      border-radius={16}
-      justify={"space-between"}
-      border={"1px solid yellow"}
-      border-image-source="linear-gradient(90.29deg, rgba(255, 255, 255, 0.31) 0%, rgba(255, 255, 255, 0) 100%)"
-      box-shadow="0px 2px 19.5px 0px rgba(219, 184, 0, 0.2)"
+  bgColor={"rgb(52,47,14)"}
+  fontSize={"md"}
+  width={"95%"}
+  m={"auto"}
+  height={"hug (88px)"}
+  paddingLeft={5}
+  paddingRight={5}
+  top={"40px"}
+  left={"40px"}
+  padding={"16px 32px 16px 32px"}
+  borderRadius={25}
+  justifyContent={"space-between"}
+  border={"2px solid rgb(110,95,26)"}
+  borderImageSource="linear-gradient(90.29deg, rgba(255, 255, 255, 0.31) 0%, rgba(255, 255, 255, 0) 100%)" // corrected typo
+  boxShadow="0px 2px 19.5px 0px rgba(219, 184, 0, 0.2)"
     >
       <Flex>
         <img width={"150px"} src="logo.png" alt="logo" />
