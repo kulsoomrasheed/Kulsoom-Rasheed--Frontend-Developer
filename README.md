@@ -1,4 +1,4 @@
-
+@ Attention: This website is for educational purpose only
 Frontend Link: https://matrixlabsassignment.netlify.app/
 # Introduction
 Welcome to Bituniverse, where we bring together the world of cryptocurrencies and weather forecasts in one seamless web application. Explore the fascinating world of digital assets while staying updated with real-time weather information, all presented in a visually captivating manner.
