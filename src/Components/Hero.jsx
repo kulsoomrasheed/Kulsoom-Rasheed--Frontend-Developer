@@ -5,11 +5,42 @@ const Hero = () => {
   return (
     <div>
       <Flex m="auto" justifyContent="center" color="white">
+        <Image
+          width={"237px"}
+          height={"237px"}
+          top={"19.31px"}
+          left={"-88.02px"}
+          position={"absolute"}
+          transform={"rotateY(25deg)"}
+          src={"sq.png"}
+          alt="hujgf"
+          animation="verticalAnimation 2s ease-in-out infinite"
+        ></Image>
         <Box
           backgroundImage="url('Graph.png')"
           position="relative"
           overflow="hidden"
         >
+          <Image
+            src={"104.png"}
+            position={"absolute"}
+            top={"217px"}
+            width="218px"
+            height="218px"
+            left={"892px"}
+          />
+          <Image
+            width={"218px"}
+            height={"218px"}
+            top={"90px"}
+            left={"575px"}
+            position={"absolute"}
+            transform={"rotateY(25deg)"}
+            animation="slidein 3s linear 1s infinite alternate"
+            src={"104.png"}
+            alt="sdf"
+          ></Image>
+
           <Heading mb={4}>
             <span
               style={{
@@ -71,18 +102,25 @@ const Hero = () => {
           />
         </Box>
       </Flex>
+      <Image
+        src="Vectorr.png"
+        border={"2.25px "}
+        position={"absolute"}
+        transform={"rotateY(5deg)"}
+        right={"300px"}
+      />
       <Flex>
         <Text
           color="rgba(253, 255, 227, 1)"
-          fontFamily="Inter"
-          fontSize="24px"
-          fontWeight="400"
-          lineHeight="40px"
-          letterSpacing="0em"
-          textAlign="center"
           justifyContent="center"
-          m="auto"
-          size="lg"
+          m={"30px auto"}
+          size="md"
+          fontFamily={"Inter"}
+          fontSize={"24px"}
+          fontWeight={400}
+          lineHeight={"40px"}
+          letterSpacing={"0em"}
+          textAlign={"center"}
         >
           Lorem ipsum dolor sit amet consectetur. Porta amet tellus suspendisse
           id velit proin <br /> eleifend id mauris. Amet sem in id eget nunc

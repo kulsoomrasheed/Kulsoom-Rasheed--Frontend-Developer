@@ -14,10 +14,9 @@ const Footer = () => {
     <div>
       <Box
         h={400}
-        bgColor={"black"}
         display="flex"
         justifyContent="center"
-        alignItems="center"
+        alignItems="center" position={'relative'} overflow={"hidden"}
       >
         <Stack
           spacing={4}
@@ -61,10 +60,23 @@ const Footer = () => {
               />{" "}
             </Flex>
           </Flex>
-          export default SocialIcons;
         </Stack>
       </Box>
-      <Box bgColor={"rgb(33,29,13)"} padding={5} color={"rgb(188,187,182)"}>
+      <Image
+      style={{
+        position: 'absolute',
+        width: '651px',
+        height: '651px',
+        top: '85%',
+        animation: 'verticalAnimation 2s ease-in-out infinite', 
+      }}
+      src="4.png"
+      alt="Animated Image"
+    />
+
+      <Box    opacity={1} transition={'all 1s'}
+ padding={5} color={"rgb(188,187,182)"}>
+  
         <Image
           width={"100px"}
           justifyContent={"center"}

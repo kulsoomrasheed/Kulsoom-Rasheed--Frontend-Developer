@@ -1,27 +1,27 @@
-/*import React from 'react'
-import "../App.css"
+import React from 'react'
+import NavMenu from './HbMenu'
+import { Box, Button, Flex, Image, Input } from '@chakra-ui/react'
+import Check from './Check'
+import { SearchIcon } from '@chakra-ui/icons'
+
 const Navbar = () => {
   return (
-    <div style={{"width": "Fixed (1,360px)",
-        "height":"Absolute" ,
-        "top": "40px",
-        "left": '40px',
-        "padding": "16px, 32px, 16px, 32px",
-        "border-radius": "16px",
-        "border": "1px",
-        "justify-content": "space-between",
-        'display':"flex"
-        }}>
-        <div><img src="logo.png" alt="" /></div>
-        <div id='parts'>
-            <div>sderftg</div>
-            <div>sdf</div>
-            <div>sdfg</div>
-            <div>sdfg</div>
-            <button>Connect Wallet</button>
-        </div>
-    </div>
+ <Box width={'100%'} margin={'auto'}  display={{
+    base: "block", 
+    sm: 'block',   
+    lg: 'none', 
+  }}>
+       <Flex justifyContent={'space-between'} margin={'auto'} alignContent={'center'} alignItems={'center'}>
+        <Flex >
+        <NavMenu/>
+        <Image  width='120px' src="araish3.png" alt="logo" />
+        </Flex>
+        <Check/>
+    </Flex>
+    <Flex margin={1} p={1}  borderRadius={12}><Input borderRadius={12} placeholder='Search On Nykaa' />
+        <Button> <SearchIcon color={'#e80071'}/></Button></Flex>
+ </Box>
   )
 }
 
-export default Navbar*/
+export default Navbar
